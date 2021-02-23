@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg">
+    <div class="container">
+        <form id="tipCalc">
+            <header class="title">Tip Calculator</header>
+            <label for="bill-amount">Bill Amount: £</label><input type="number" name="bill-amount" class="bill-amount"></input>
+            <label for="tip-amount">Tip Amount: </label><input type="number" name="tip-amount" class="tip-amount">%</input>
+            <button type="button" class="btn btn-secondary" id="submit">Submit</button>
+            <p class="total"></p>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
